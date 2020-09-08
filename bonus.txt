@@ -1,0 +1,8 @@
+Xwindow
+For bonus, we use xwindows to display certain effect of card is played. For example, when the spell card “bomb” occurs, it screen will display a window showing BOOM!.  Moreover, we changed the interface’s color so that the color will not be the same all the time.  
+
+Pokémon
+Furthermore, we use the collectible card game Pokémon’s idea: minion has their own attributes.  In this way, certain minion will have certain attribute so that it’s more vulnerable or stronger against certain minion. This will not only give player more fun to play this game, but will also make player to think deeply before they play each card. To achieve this, we add new private field to certain minion card, and when we attack others, we will pass our minion’s attribute to the function then compare it with the attribute of another side’s player’s attribute. In this way, we can add or subtract some attacks. 
+
+Water Elemental
+As the name contains “Water”, we decide to add this new card to have the ability to heal the player at the end of the turn by 1. Also, its attribute can be opposite to Fire Elemental, so that our Pokémon’s idea can be achieved.
